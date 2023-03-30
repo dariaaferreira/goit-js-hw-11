@@ -25,6 +25,8 @@ loadMoreBtn.refs.button.addEventListener("click", onLoadMore);
 
 const lightbox = new SimpleLightbox('.gallery a', {/* options */});
 
+let isShown = 0;
+
 function onSearch(e) {
   e.preventDefault();
   isShown = 0;
